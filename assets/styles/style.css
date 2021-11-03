@@ -1,0 +1,528 @@
+                /* GLOBAL */
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                /* HEADER */
+                
+                .header {
+                    display: flex;
+                    max-width: 1440px;
+                    width: 100%;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding-top: 25px;
+                    padding-bottom: 25px;
+                    justify-content: space-around;
+                    color: black;
+                }
+                
+                .SHOP {
+                    color: black;
+                }
+                
+                .image {
+                    width: 200px;
+                    height: 17px;
+                }
+                /*SECTIONCONTENT  */
+                
+                div#TEXT {
+                    text-align: center;
+                }
+                
+                .TDS {
+                    width: 1440px;
+                    height: 0x;
+                    margin-top: -270px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 43px;
+                    line-height: 46px;
+                    text-align: center;
+                    color: #ffffff;
+                }
+                
+                .AIW {
+                    width: 1440px;
+                    height: 0px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+                    text-align: center;
+                    letter-spacing: 0.8px;
+                    color: #ffffff;
+                }
+                
+                .LM1 {
+                    width: 1440px;
+                    height: 0px;
+                    margin-top: 30px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-align: center;
+                    letter-spacing: 1.4px;
+                    color: #ffffff;
+                }
+                /* PRODUCT */
+                
+                .section3 {
+                    display: flex;
+                    padding-top: 250px;
+                    width: 297px;
+                    height: 58px;
+                    text-align: center;
+                }
+                
+                .DI {
+                    display: flex;
+                    justify-content: center;
+                    width: 297px;
+                    height: 58px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 43px;
+                    line-height: 58px;
+                    text-align: center;
+                    color: #000000;
+                }
+                
+                .BYDW {
+                    display: flex;
+                    flex-direction: row;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                
+                .GS {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-align: center;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                
+                .IMAGE1 {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 1320px;
+                    margin-top: 250px;
+                }
+                
+                .DP {
+                    float: left;
+                    width: 680px;
+                    padding-top: 48px;
+                    display: flex;
+                    justify-content: flex-start;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 27px;
+                    color: #000000;
+                }
+                
+                .LS {
+                    text-align: right;
+                    padding-top: 48px;
+                    display: flex;
+                    justify-content: flex-end;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 27px;
+                    color: #000000;
+                }
+                
+                .LM2 {
+                    float: left;
+                    width: 680px;
+                    padding-top: 23px;
+                    display: flex;
+                    justify-content: flex-start;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-align: center;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                
+                .LM3 {
+                    text-align: right;
+                    padding-top: 23px;
+                    display: flex;
+                    justify-content: flex-end;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-align: center;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                /* CATALOG   */
+                
+                .FP {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 130px;
+                    width: 297px;
+                    height: 58px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 33px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #000000;
+                }
+                
+                .SWTR {
+                    display: flex;
+                    padding-top: 46px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                
+                .IMAGE2 {
+                    display: flex;
+                    padding-top: 83px;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    height: 441px;
+                    width: 1440px;
+                    background: url(.png);
+                }
+                
+                .dd {
+                    display: flex;
+                    flex-direction: row;
+                    width: 1390px;
+                    justify-content: space-between;
+                    padding-top: 23px;
+                }
+                
+                .MagSafe {
+                    flex-direction: row;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-align: left;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                
+                .Laptop {
+                    font-family: Roboto;
+                    width: 330px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-align: left;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                
+                .iPad {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-align: left;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                
+                .Monitor {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-align: left;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                /* SECTIONCONTENT2 */
+                
+                div#TEXT2 {
+                    text-align: center;
+                    padding-top: 160px;
+                }
+                
+                .HOI {
+                    width: 1440px;
+                    height: 0px;
+                    margin-top: -320px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 43px;
+                    line-height: 46px;
+                    text-align: center;
+                    color: white;
+                }
+                
+                .WFHC {
+                    width: 1440px;
+                    height: 0px;
+                    margin-top: 70px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    letter-spacing: 0.8px;
+                    color: #ffffff;
+                }
+                
+                .LM4 {
+                    width: 1440px;
+                    height: 0px;
+                    margin-top: 30px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-align: center;
+                    letter-spacing: 1.4px;
+                    color: #ffffff;
+                }
+                /* LOCATION  */
+                
+                .MTH {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 350px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 33px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #000000;
+                }
+                
+                .OSC {
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px 300px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                
+                .IMAGE3 {
+                    display: flex;
+                    padding-top: 23px;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+                
+                .MWM {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 124px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 33px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #000000;
+                }
+                
+                .WHBW {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 23px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.8px;
+                    color: #a0a0a0;
+                }
+                /* SECTIONEMLOYEE   */
+                
+                .IMAGE4 {
+                    display: flex;
+                    padding-top: 90px;
+                    flex-wrap: wrap;
+                    height: 271px;
+                    width: 1300px;
+                    margin: 0px 49px 0px 49px;
+                    justify-content: right;
+                }
+                
+                .WHYJ {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 1000px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 33px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #000000;
+                }
+                
+                .RMAOS {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 44px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #000000;
+                }
+                /* BANNERS  */
+                
+                div#TEXT3 {
+                    text-align: center;
+                    padding-top: 160px;
+                }
+                
+                .P {
+                    width: 40px;
+                    height: 34px;
+                    padding-top: -240px;
+                    background: url(.png);
+                    border-radius: 0px;
+                }
+                
+                .DI2 {
+                    width: 1440px;
+                    height: 0x;
+                    margin-top: -308px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 43px;
+                    line-height: 46px;
+                    text-align: center;
+                    color: white;
+                }
+                
+                .BYDWSY {
+                    width: 1440px;
+                    height: 0x;
+                    margin-top: 30px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: white;
+                }
+                /* FOOTER  */
+                
+                div#TEXT4 {
+                    text-align: center;
+                    padding-top: 250px;
+                }
+                
+                .test {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-top: -230px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: black;
+                }
+                /* .TEXT4 {
+                  justify-content: start;
+              }
+              
+              .SH,
+              .AB,
+              .JN,
+              .CV,
+              .OS,
+              .CS {
+                  display: flex;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 22px;
+                  line-height: 24px;
+                  color: #000000;
+              }
+              
+              ul {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+              }
+              
+              .li {
+                  text-align: left;
+              }
+              
+              .test {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                  text-align: start;
+              } */
